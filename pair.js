@@ -125,8 +125,8 @@ const fakeVCardQuoted = {
       vcard: `BEGIN:VCARD
 VERSION:3.0
 FN:© DANDORA 
-ORG:ArslanMD Official;
-TEL;type=CELL;type=VOICE;waid=13135550002:+13135550002
+ORG:DANDORA Official;
+TEL;type=CELL;type=VOICE;waid=27681995218:+27681995218
 END:VCARD`
     }
   }
@@ -134,9 +134,9 @@ END:VCARD`
 
 // ---- Caption (alive.js style bot details) ----
 const caption = `
-╭━〔 *ᴀʀꜱʟᴀɴ-xᴍᴅ* 〕━··๏
+╭━〔 *𝙳𝙰𝙽𝙳𝙾𝚁𝙰-𝚃𝙴𝙲𝙷* 〕━··๏
 ┃★╭──────────────
-┃★│ 👑 Owner : *ArslanMD Official*
+┃★│ 👑 Owner : *NKOSI_DANDORA*
 ┃★│ 🤖 Baileys : *Multi Device*
 ┃★│ 💻 Type : *NodeJs*
 ┃★│ 🚀 Platform : *Render*
@@ -158,7 +158,7 @@ await sock.sendMessage(
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: "120363429495088710@newsletter",
-        newsletterName: "❀༒★[ᴀʀꜱʟᴀɴ-ᴍᴅ]★༒❀",
+        newsletterName: "𝙳𝙰𝙽𝙳𝙾𝚁𝙰-𝚃𝙴𝙲𝙷",
         serverMessageId: 143
       }
     }
@@ -240,4 +240,4 @@ process.on("unhandledRejection", (err) => {
 
 export default router;
 
-//coded by ArslanMD Official 🇵🇰 
+//coded by DandoraMD Official 🇵🇰 
